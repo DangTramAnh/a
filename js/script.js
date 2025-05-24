@@ -105,42 +105,42 @@ document.addEventListener('DOMContentLoaded', () => {
   // Popup data
   const popupData = {
     edu1: {
-      image: "/image/about_image/thptmdc.jpg",
+      image: "./image/about_image/thptmdc.jpg",
       titleVi: 'THPT Mạc Đĩnh Chi',
       titleEn: 'Mac Dinh Chi High School',
       descriptionVi: 'THPT Mạc Đĩnh Chi là nơi em trưởng thành, học được cách suy nghĩ độc lập và phát triển bản thân toàn diện.',
       descriptionEn: 'Mac Dinh Chi High School is where I matured, learned to think independently, and grew as a person.'
     },
     edu2: {
-      image: '/image/about_image/ththsaigon.jpeg',
+      image: './image/about_image/ththsaigon.jpeg',
       titleVi: 'THTH Sài Gòn',
       titleEn: 'Sài Gòn Secondary School',
       descriptionVi: 'Những năm học tại Trung học Thực hành Sài Gòn là khoảng thời gian em bắt đầu khám phá bản thân và hình thành những ước mơ đầu tiên.',
       descriptionEn: 'My years at Saigon Experimental Secondary School were when I began discovering myself and forming my earliest dreams.'
     },
     edu3: {
-      image: '/image/about_image/khaiminh.jpg',
+      image: './image/about_image/khaiminh.jpg',
       titleVi: 'Tiểu học KhaiMinh',
       titleEn: 'KhaiMinh Primary School',
       descriptionVi: 'Khi còn học ở tiểu học KhaiMinh, em đã có nhiều kỷ niệm đẹp và những bài học đầu đời quý giá.',
       descriptionEn: 'When I was studying at KhaiMinh Primary School, I had many beautiful memories and learned valuable lessons in my early years. '
     },
     exp1: {
-      image: '/image/about_image/ielts.png',
+      image: './image/about_image/ielts.png',
       titleVi: 'IELTS',
       titleEn: 'IELTS',
       descriptionVi: 'Việc đạt được bằng IELTS không chỉ là một thành tích học thuật mà còn mở ra cho em nhiều cơ hội vươn ra thế giới.',
       descriptionEn: 'Earning the IELTS certificate was not just an academic milestone, but also a gateway to global opportunities.'
     },
     exp2: {
-      image: '/image/about_image/mindx.jpeg',
+      image: './image/about_image/mindx.jpeg',
       titleVi: 'MindX',
       titleEn: 'MindX',
       descriptionVi: 'Lớp học hội họa tại MindX giúp em thể hiện cảm xúc qua từng nét vẽ và nuôi dưỡng niềm đam mê nghệ thuật.',
       descriptionEn: 'The art class at MindX allowed me to express emotions through every stroke and nurtured my passion for creativity.'
     },
     exp3: {
-      image: '/image/about_image/design.png',
+      image: './image/about_image/design.png',
       titleVi: 'Thiết kế',
       titleEn: 'Design',
       descriptionVi: 'Khóa học thiết kế giúp em hiểu rằng sáng tạo không chỉ là cảm hứng, mà còn là kỹ năng có thể rèn luyện mỗi ngày.',
