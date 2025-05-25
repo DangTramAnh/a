@@ -146,11 +146,7 @@ const folders = [
         box.appendChild(media);
       }
   
-      const overlay = document.createElement('div');
-      overlay.className = 'overlay';
-      overlay.textContent = imgObj.short;
-  
-      box.appendChild(overlay);
+      
       viewer.appendChild(box);
     });
   

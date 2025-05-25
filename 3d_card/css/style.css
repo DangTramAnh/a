@@ -2409,6 +2409,9 @@ body.dark .form-field textarea:valid + .label-name .content-name {
     .form-field input, .form-field textarea{
       font-size:30px;
     }
+    .timeline-item .date h3{
+      font-size:35px;
+    }
   }
 
  

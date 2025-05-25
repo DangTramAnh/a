@@ -136,15 +136,15 @@ document.addEventListener('DOMContentLoaded', () => {
       image: './image/about_image/mindx.jpeg',
       titleVi: 'MindX',
       titleEn: 'MindX',
-      descriptionVi: 'Lớp học hội họa tại MindX giúp em thể hiện cảm xúc qua từng nét vẽ và nuôi dưỡng niềm đam mê nghệ thuật.',
-      descriptionEn: 'The art class at MindX allowed me to express emotions through every stroke and nurtured my passion for creativity.'
+      descriptionVi: 'Khóa học tại MindX đã giúp em hiểu rõ hơn và rèn luyện các kỹ năng thiết kế nhân vật trong ngành thiết kế.',
+      descriptionEn: 'The course at MindX has deepened my understanding and strengthened my skills in character design within the design industry.'
     },
     exp3: {
       image: './image/about_image/design.png',
       titleVi: 'Thiết kế',
       titleEn: 'Design',
-      descriptionVi: 'Khóa học thiết kế giúp em hiểu rằng sáng tạo không chỉ là cảm hứng, mà còn là kỹ năng có thể rèn luyện mỗi ngày.',
-      descriptionEn: 'The design course taught me that creativity isn’t just inspiration — it’s a skill that can be trained every day.'
+      descriptionVi: 'Kinh nghiệm từ các dự án thiết kế trên lớp đã giúp em có những bước làm quen đầu tiên với ngành này.',
+      descriptionEn: 'Experience from class design projects has given me the first steps in getting familiar with this field.'
     }
   };
 
@@ -252,49 +252,49 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       image: './image/1.1.jpg',
       preview: './image/1.1.jpg',
-      title: { vi: 'Sắc Màu Cảm Xúc', en: 'Colors of Emotion' },
-      size: { vi: 'Kích thước: 80x100 cm', en: 'Size: 80x100 cm' },
-      medium: { vi: 'Chất liệu: Acrylic trên canvas', en: 'Medium: Acrylic on canvas' },
-      year: { vi: 'Năm sáng tác: 2024', en: 'Year: 2024' },
+      title: { vi: 'Miyu đáng yêu', en: 'Lovely Miyu' },
+      size: { vi: 'Kích thước: 518x1000 cm', en: 'Size: 518x1000 cm' },
+      medium: { vi: 'Ứng dụng ibisPaint X', en: 'ibisPaint X application' },
+      year: { vi: 'Năm sáng tác: 2022', en: 'Year: 2022' },
       concept: {
-        vi: 'Ý tưởng: Tác phẩm thể hiện sự giao thoa giữa những cảm xúc mãnh liệt thông qua việc sử dụng các mảng màu tương phản và những đường nét tự do, phóng khoáng.',
-        en: 'Concept: The artwork represents the interplay of intense emotions through the use of contrasting color fields and free, expressive lines.'
+        vi: 'Khi 13 tuổi, với mong muốn có một hình nền điện thoại thật đặc biệt, em đã nảy ra ý tưởng tự vẽ một bức ảnh độc đáo làm hình nền điện thoại. Em tự sáng tạo nhân vật và vẽ bức tranh này hoàn toàn theo sở thích cá nhân của em.',
+        en: 'When I was 13, I wanted to have a special phone wallpaper so I came up with the idea of ​​drawing a unique picture to use as my phone wallpaper. I created the character and drew this picture completely based on my personal preferences.'
       }
     },
     {
       image: './image/2.13.jpg',
       preview: './image/2.13.jpg',
-      title: { vi: 'Vũ Điệu Của Màu Sắc', en: 'Dance of Colors' },
-      size: { vi: 'Kích thước: 90x120 cm', en: 'Size: 90x120 cm' },
-      medium: { vi: 'Chất liệu: Dầu trên canvas', en: 'Medium: Oil on canvas' },
-      year: { vi: 'Năm sáng tác: 2024', en: 'Year: 2024' },
+      title: { vi: 'Chiến Binh Cyberpunk', en: 'Cyberpunk Warrior' },
+      size: { vi: 'Kích thước: 1266 x 1728 cm', en: 'Size: 1266 x 1728 cm' },
+      medium: { vi: 'Ứng dụng ibisPaint X', en: 'ibisPaint X application' },
+      year: { vi: 'Năm sáng tác: 2023', en: 'Year: 2023' },
       concept: {
-        vi: 'Ý tưởng: Một tác phẩm về sự chuyển động và nhịp điệu, nơi các màu sắc tương tác và nhảy múa với nhau tạo nên một bản hòa tấu thị giác.',
-        en: 'Concept: A piece about movement and rhythm, where colors interact and dance together creating a visual symphony.'
+        vi: 'Đây là bài kết khóa của em tại MindX, với ý tưởng về một thành phố tương lai đang bị tàn phá và nhân vật chính là một thành viên trong tổ chức tên là Merch. Cô đang chiến đấu hết mình để bảo vệ thành phố của mình. Bức tranh này là cách em thể hiện ý tưởng về một thành phố tương lai đang đứng trước bờ vực diệt vong, và một người hùng cô độc chiến đấu để cứu lấy nó. Đây cũng là kết quả em đạt được sau khóa học tại MindX.',
+        en: 'This is my final project at MindX, with the idea of ​​a future city being destroyed and the main character is a member of an organization called Merch. She is fighting with all her might to protect her city. This painting is my way of expressing the idea of ​​a future city on the brink of destruction, and a lone hero fighting to save it. This is also the result I achieved after the course at MindX.'
       }
     },
     {
       image: './image/3.1.jpg',
       preview: './image/3.1.jpg',
-      title: { vi: 'Không Gian Trừu Tượng', en: 'Abstract Space' },
-      size: { vi: 'Kích thước: 100x100 cm', en: 'Size: 100x100 cm' },
-      medium: { vi: 'Chất liệu: Mixed media', en: 'Medium: Mixed media' },
+      title: { vi: 'Giáng sinh an lành', en: 'Merry Christmas' },
+      size: { vi: 'Kích thước: 1575 x 2331 cm', en: 'Size: 1575 x 2331 cm' },
+      medium: { vi: 'Ứng dụng ibisPaint X', en: 'ibisPaint X application' },
       year: { vi: 'Năm sáng tác: 2024', en: 'Year: 2024' },
       concept: {
-        vi: 'Ý tưởng: Khám phá mối quan hệ giữa không gian và hình dạng thông qua việc sử dụng các kỹ thuật hỗn hợp và lớp chồng lớp.',
-        en: 'Concept: Exploring the relationship between space and form through mixed media techniques and layering.'
+        vi: 'Đây là món quà Giáng Sinh đặc biệt em tự tay vẽ tặng bạn em, một bức fanart của Toga Himiko, nhân vật mà bạn ấy luôn hâm mộ. Đồng thời, đây cũng là tác phẩm đầu tay của em sau khóa học ở MindX, cho thấy sự tiến bộ rõ rệt trong kỹ năng vẽ và tô màu của em.',
+        en: 'This is a special Christmas gift that I drew myself for my friend, a fanart of Toga Himiko, a character that she has always admired. At the same time, this is also my first work after the course at MindX, showing clear progress in my drawing and coloring skills.'
       }
     },
     {
       image: './image/3.2.jpg',
       preview: './image/3.2.jpg',
-      title: { vi: 'Hòa Quyện', en: 'Fusion' },
-      size: { vi: 'Kích thước: 70x90 cm', en: 'Size: 70x90 cm' },
-      medium: { vi: 'Chất liệu: Acrylic và mực', en: 'Medium: Acrylic and ink' },
+      title: { vi: 'Nữ du kích miền nam', en: 'female southern guerrilla' },
+      size: { vi: 'Kích thước: 1266 x 1728 cm', en: 'Size: 1266 x 1728 cm' },
+      medium: { vi: 'Ứng dụng ibisPaint X', en: 'ibisPaint X application' },
       year: { vi: 'Năm sáng tác: 2024', en: 'Year: 2024' },
       concept: {
-        vi: 'Ý tưởng: Sự kết hợp giữa các yếu tố tự nhiên và hình học, tạo nên một thế giới trừu tượng nơi ranh giới giữa hữu cơ và vô cơ trở nên mờ nhạt.',
-        en: 'Concept: A fusion of natural and geometric elements, creating an abstract world where the boundaries between organic and inorganic become blurred.'
+        vi: 'Nhân dịp kỷ niệm 50 năm Ngày Giải phóng miền Nam 30/4, em đã vẽ hình ảnh nữ du kích miền Nam để bày tỏ lòng tri ân sâu sắc đến những thế hệ đã hy sinh vì độc lập dân tộc. Với tác phẩm này em muốn khắc họa một khía cạnh khác trong vẻ đẹp của họ, bên cạnh sự kiên cường  là nét duyên dáng, đáng yêu đầy nữ tính trong những năm tháng chiến tranh.',
+        en: 'On the occasion of the 50th anniversary of the Liberation of the South on April 30, I drew an image of a female guerilla from the South to express my deep gratitude to the generations who sacrificed for national independence. With this work, I want to portray another aspect of their beauty, besides their resilience, there is also the charming, lovely femininity during the war years.'
       }
     }
   ];
