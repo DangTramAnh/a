@@ -14,7 +14,7 @@ body {
     top: 20px;
     left: 50%;
     transform: translateX(-50%);
-    width: 50vw;
+    width: 60vw;
     background: white;
     border-radius: 50px;
     box-shadow: 0 4px 12px #FF94AB;
@@ -42,7 +42,7 @@ body {
     left: 30px;
     top: 30px;
     transform: none;
-    width: 100px;
+  width:100px;
     height: 60px;
     border-radius: 30px;
     padding: 0 10px;
@@ -118,6 +118,14 @@ body {
     align-items: center;
   }
   /* header end */
+  @media(max-width:1300px){
+    .header a .lang.vi,.header a .lang.en{
+      font-size:16px;
+    }
+    .header nav{
+      gap:2rem;
+    }
+  }
   @media(max-width:990px){
     .badge-section{
       display: flex;

@@ -22,7 +22,7 @@ html, body {
     max-width: 700px;
   }
 .title-section{
-margin-top:200px;    
+margin-top:250px;    
 }
   .folder {
     width: 400px;
@@ -242,12 +242,23 @@ margin-top:200px;
   }
   .gallery{
       width: 260px;
+      margin:0 auto;
+      justify-content:center;
+
   }
   .image-box {
-    width:400px;
+    width:300px;
   }
   .image-viewer{
    gap:150px
   }
   
+}
+@media(max-width:300px){
+  .gallery{
+    widtH:200px;
+  }
+  .image-box{
+    width:250px;
+  }
 }

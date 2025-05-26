@@ -14,7 +14,7 @@ body {
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  width: 50vw;
+  width: 60vw;
   background: white;
   border-radius: 50px;
   box-shadow: 0 4px 12px #FF94AB;
@@ -2373,7 +2373,7 @@ body.dark .form-field textarea:valid + .label-name .content-name {
 @media(max-width:1560px){
   .header a .lang.vi,
   .header a .lang.en{
-    font-size:18px;
+    font-size:16px;
   }
   .lang.vi{
     font-size:35px;
@@ -2382,7 +2382,11 @@ body.dark .form-field textarea:valid + .label-name .content-name {
     font-size:35px;
   }
   .header nav{
-    gap:1rem;
+    gap:2rem;
+  }
+  .header{
+    width: 60vw;
+
   }
 }
 
@@ -2433,5 +2437,3 @@ body.dark .form-field textarea:valid + .label-name .content-name {
     }
   }
 
- 
-  

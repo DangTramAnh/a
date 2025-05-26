@@ -22,7 +22,7 @@ html, body {
       max-width: 700px;
     }
 .title-section{
-margin-top:200px;    
+margin-top:250px;    
 }
     .folder {
       width: 400px;
@@ -261,11 +261,13 @@ margin-top:200px;
   }
 }
 @media(max-width:400px){
+ 
     .folder{
         width:200px;
     }
     .title-section .lang.vi, .title-section .lang.en{
-        font-size:25px
+        font-size:25px;
+    
     }
     .folder .lang.vi{
         font-size:15px

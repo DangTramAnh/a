@@ -330,14 +330,14 @@ const folders = [
       {
         type: 'card3d',
         short: 'Haerin',
-        desc: 'Haerin - góc nhìn 3D',
+        desc: 'Haerin',
         front: '../image/keychain/Felina.png',
         back: '../image/keychain/Felina.png'
       },
       {
         type: 'card3d',
         short: 'Hanni',
-        desc: 'Hanni - góc nhìn 3D',
+        desc: 'Hanni',
         front: '../image/keychain/Felix.png',
         back: '../image/keychain/Felix.png'
       }
