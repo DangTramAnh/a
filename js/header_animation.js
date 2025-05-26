@@ -30,7 +30,10 @@ langToggle.addEventListener('click', () => {
 // Chuyển theme sáng/tối
 themeToggle.addEventListener('click', () => {
   document.body.classList.toggle('dark');
-  themeIcon.textContent = document.body.classList.contains('dark') ? '☀️' : '🌙';
+  const isDark = document.body.classList.contains('dark');
+  themeIcon.innerHTML = isDark
+    ? '<i class="fa-solid fa-moon" style="color:gold"></i>'   // Sáng (mặt trời)
+    : '<i class="fa-solid fa-sun" style="color:gold"></i>'; // Tối (mặt trăng)
 });
 
 // Hiệu ứng header thu nhỏ
