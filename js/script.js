@@ -327,8 +327,15 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function updateMainArtwork(index) {
+  
+  
     const artwork = artworks[index];
-    
+    mainArtwork.src = artwork.image;
+    if (index === 0) {
+      mainArtwork.style.objectPosition = 'bottom';
+    } else {
+      mainArtwork.style.objectPosition = ''; // hoặc 'center' nếu muốn rõ ràng
+    }
     // Add fade out effect
     mainArtwork.style.opacity = '0';
     artworkCard.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) scale3d(1, 1, 1)';
