@@ -2370,7 +2370,8 @@ body.dark .form-field textarea:valid + .label-name .content-name {
 }
 
 
-@media(max-width:1560px){
+
+@media(max-width:1750px){
   .header a .lang.vi,
   .header a .lang.en{
     font-size:16px;
@@ -2384,12 +2385,17 @@ body.dark .form-field textarea:valid + .label-name .content-name {
   .header nav{
     gap:2rem;
   }
+ 
+}
+@media(max-width:1250px){
+  .header a .lang.vi,
+  .header a .lang.en{
+    font-size:14px;
+  }
   .header{
-    width: 60vw;
-
+    width:70vw;
   }
 }
-
 @media(max-width:990px){
   .header a .lang.vi,
   .header a .lang.en{
