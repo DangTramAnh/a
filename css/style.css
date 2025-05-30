@@ -2072,9 +2072,7 @@ body.dark .form-field input:valid + .label-name .content-name,
 body.dark .form-field textarea:valid + .label-name .content-name {
   color: #FF94AB;
 }
-.artwork-description p{
-  text-align: justify;
-}
+
 .containera{
   width: 90%;
   min-width:300px;
