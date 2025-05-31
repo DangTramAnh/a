@@ -117,7 +117,7 @@ a {
 }
 
 body.dark {
-  background: #121212;
+  background: linear-gradient(135deg, #FF94AB, #4a4a4a);
   color: #f0f0f0;
 }
 

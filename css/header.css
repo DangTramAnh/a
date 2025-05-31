@@ -98,10 +98,13 @@ body {
     margin-left: 10px;
   }
   
-  body.dark {
-    background: #121212;
-    color: #f0f0f0;
-  }
+body.dark {
+  background: linear-gradient(to bottom, 
+    #000 0%, 
+    #FF94AB 50%, 
+    #000 100%);
+  color: #f0f0f0;
+}
   
   .actions {
     display: flex;

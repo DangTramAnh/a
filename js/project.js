@@ -342,7 +342,20 @@ const folders = [
         back: '../image/keychain/Felix.png'
       }
     ]
-  }
+  },
+  {
+      name: { vi: 'Bài trình chiếu dự án', en: 'Project slide' },
+      images: [
+        {
+          src: 'https://www.canva.com/design/DAGoiZj0_nQ/v_5sgNYbtQEfdhYaRyWIUw/view?embed',
+          short: 'Project slide',
+          desc: 'Bài thuyết trình bằng Canva',
+          type: 'iframe'
+        },
+        
+       
+      ]
+    }
 ];
 
 let currentOpen = null;
@@ -364,9 +377,28 @@ function createGallery(folderData) {
   rightArrow.className = 'arrow';
   rightArrow.innerHTML = '&#9654;';
 
-  const viewer = document.createElement('div');
-  viewer.className = 'image-viewer';
+ const viewer = document.createElement('div');
+viewer.className = 'image-viewer';
 
+const hasIframeOrCard3D = images.some(img => img.type === 'iframe' || img.type === 'card3d');
+const hasCard3D = images.some(img => img.type === 'card3d');
+
+if (hasIframeOrCard3D) {
+  viewer.style.justifyContent = 'center';
+}
+function adjustViewerStyle() {
+  if (hasCard3D && window.innerWidth <= 400) {
+    viewer.style.justifyContent = ''; // reset lại
+  } else if (hasIframeOrCard3D) {
+    viewer.style.justifyContent = 'center';
+  }
+}
+
+// Gọi lần đầu khi tạo
+adjustViewerStyle();
+
+// Theo dõi khi resize
+window.addEventListener('resize', adjustViewerStyle);
   const desc = document.createElement('div');
   desc.className = 'description';
 
@@ -428,7 +460,21 @@ function createGallery(folderData) {
       setupCard3DRotation(card); // <- setup xoay
       return; // <- thoát ra luôn nếu là 3dcard
     
-    } else {
+    }  else if (imgObj.type === 'iframe') {
+  const iframeWrapper = document.createElement('div');
+  iframeWrapper.className = 'iframe-wrapper';
+
+  media = document.createElement('iframe');
+  media.src = imgObj.src;
+  media.frameBorder = 0;
+  media.allowFullscreen = true;
+  media.loading = 'lazy';
+
+  iframeWrapper.appendChild(media);
+  iframeWrapper.onclick = () => desc.textContent = imgObj.desc;
+  box.appendChild(iframeWrapper);
+}
+    else {
       media = document.createElement('img');
       media.src = imgObj.src;
       media.alt = imgObj.short;
