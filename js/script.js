@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
       descriptionEn: 'Mac Dinh Chi High School is where I matured, learned to think independently, and grew as a person.'
     },
     edu2: {
-      image: './image/about_image/ththsaigon.jpeg',
+      image: './image/about_image/thth.jpg',
       titleVi: 'THTH Sài Gòn',
       titleEn: 'Sài Gòn Secondary School',
       descriptionVi: 'Những năm học tại Trung học Thực hành Sài Gòn là khoảng thời gian em bắt đầu khám phá bản thân và hình thành những ước mơ đầu tiên.',
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     edu3: {
       image: './image/about_image/khaiminh.jpg',
-      titleVi: 'Tiểu học KhaiMinh',
+      titleVi: 'Tiểu học Khai Minh',
       titleEn: 'KhaiMinh Primary School',
       descriptionVi: 'Khi còn học ở tiểu học KhaiMinh, em đã có nhiều kỷ niệm đẹp và những bài học đầu đời quý giá.',
       descriptionEn: 'When I was studying at KhaiMinh Primary School, I had many beautiful memories and learned valuable lessons in my early years. '
