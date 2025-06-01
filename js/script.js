@@ -129,14 +129,14 @@ document.addEventListener('DOMContentLoaded', () => {
       descriptionEn: 'When I was studying at KhaiMinh Primary School, I had many beautiful memories and learned valuable lessons in my early years. '
     },
     exp1: {
-      image: './image/about_image/ielts.png',
+      image: './image/about_image/IELST.jpg',
       titleVi: 'IELTS',
       titleEn: 'IELTS',
       descriptionVi: 'Việc đạt được bằng IELTS không chỉ là một thành tích học thuật mà còn mở ra cho em nhiều cơ hội vươn ra thế giới.',
       descriptionEn: 'Earning the IELTS certificate was not just an academic milestone, but also a gateway to global opportunities.'
     },
     exp2: {
-      image: './image/about_image/mindx.jpeg',
+      image: './image/about_image/mindx.png',
       titleVi: 'MindX',
       titleEn: 'MindX',
       descriptionVi: 'Khóa học tại MindX đã giúp em hiểu rõ hơn và rèn luyện các kỹ năng thiết kế nhân vật trong ngành thiết kế.',

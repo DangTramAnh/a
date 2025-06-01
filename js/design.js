@@ -58,7 +58,36 @@ const folders = [
           back: '../3d_card/HanniS.png'
         }
       ]
-    }
+    },
+     {
+      name: { vi: 'Luyện tập', en: 'practice' },
+      images: [
+        {
+          src: 'https://drive.google.com/file/d/1IwQbN1AGZUqHBeyK8LXAvN0w7Pl_vneA/view?usp=sharing',
+          short: 'Sketch',
+          desc: 'This is a sketch project',
+          type: 'drive'
+        },
+        {
+          src: 'https://drive.google.com/file/d/1tjixAUA2Au4kUBOYgedpyX7nyCJzseDq/view?usp=sharing',
+          short: 'Logo',
+          desc: 'This is a logo design',
+          type: 'drive'
+        },
+        {
+          src: 'https://drive.google.com/file/d/1xrstxmrIG0I6xpJvVgIPNaICVZcvWh3F/view?usp=sharing',
+          short: 'UX Flow',
+          desc: 'User experience workflow',
+          type: 'drive'
+        },
+        {
+          src: 'https://drive.google.com/file/d/1dZAD3_c37KMnyIxGFvtlpsxxibr7t6Ke/view?usp=sharing',
+          short: 'UX Flow',
+          desc: 'User experience workflow',
+          type: 'drive'
+        },
+      ]
+    },
   ];
   
   let currentOpen = null;

@@ -31,6 +31,12 @@ const folders = [
             short: 'Hoá 11',
             desc: 'Bài thuyết trình bằng Canva',
             type: 'iframe'
+          },
+          {
+            src: 'https://www.canva.com/design/DAGpELx69Bg/XoB58oWXMzQd074BadY1Sg/view?embed',
+            short: 'Mini project',
+            desc: 'Bài thuyết trình bằng Canva',
+            type: 'iframe'
           }
       ]
     }
