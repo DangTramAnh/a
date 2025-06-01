@@ -5,6 +5,9 @@ body {
     background: #FAF6F5;
     color: black;
     transition: background 0.4s, color 0.4s;
+
+  min-height: 100vh; /* Chiều cao tối thiểu là toàn màn hình, nhưng cho phép cao hơn nếu nội dung dài */
+
   }
   /* body end */
   
@@ -99,11 +102,7 @@ body {
   }
   
 body.dark {
-  background: linear-gradient(to bottom, 
-    #000 0%, 
-    #FF94AB 50%, 
-    #000 100%);
-  color: #f0f0f0;
+   background: linear-gradient(135deg, #FF94AB, #4a4a4a);
 }
   
   .actions {

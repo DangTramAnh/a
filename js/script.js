@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
       descriptionEn: 'Mac Dinh Chi High School helped me grow and mature, learn to think independently, and become a more well-rounded person.'
     },
     edu2: {
-      image: './image/about_image/ththsaigon.jpeg',
+      image: './image/about_image/ththsaigon.jpg',
       titleVi: 'THTH Sài Gòn',
       titleEn: 'Sài Gòn Pratical Secondary School',
       descriptionVi: 'Những năm học tại Trung học Thực hành Sài Gòn là khoảng thời gian em bắt đầu khám phá bản thân và hình thành những ước mơ đầu tiên.',
@@ -132,8 +132,8 @@ document.addEventListener('DOMContentLoaded', () => {
       image: './image/about_image/khaiminh.jpg',
       titleVi: 'Tiểu học Khai Minh',
       titleEn: 'Khai Minh Primary School',
-      descriptionVi: 'Khi còn học ở tiểu học KhaiMinh, em đã có nhiều kỷ niệm đẹp và những bài học đầu đời quý giá.',
-      descriptionEn: 'When I was studying at KhaiMinh Primary School, I had many beautiful memories and learned valuable lessons in my early years. '
+      descriptionVi: 'Khi còn học ở tiểu học Khai Minh, em đã có nhiều kỷ niệm đẹp và những bài học đầu đời quý giá.',
+      descriptionEn: 'When I was studying at Khai Minh Primary School, I had many beautiful memories and learned valuable lessons in my early years. '
     },
     exp1: {
       image: './image/about_image/IELST.jpg',
@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', () => {
       image: './image/about_image/mindx.png',
       titleVi: 'MindX',
       titleEn: 'MindX',
-      descriptionVi: 'Khóa học tại MindX đã giúp em hiểu rõ hơnvà rèn luyện các kỹ năng để thiết kế nhân vật.',
+      descriptionVi: 'Khóa học tại MindX đã giúp em hiểu rõ hơn và rèn luyện các kỹ năng để thiết kế nhân vật.',
       descriptionEn: "MindX's course equipped me with the knowledge and skills needed for character design.",
     },
     exp3: {
@@ -298,7 +298,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       image: './image/3.2.jpg',
       preview: './image/3.2.jpg',
-      title: { vi: 'Nữ du kích miền nam', en: 'female southern guerrilla' },
+      title: { vi: 'Nữ du kích miền nam', en: 'Female southern guerrilla' },
       size: { vi: 'Kích thước: 1266 x 1728 cm', en: 'Size: 1266 x 1728 cm' },
       medium: { vi: 'Ứng dụng ibisPaint X', en: 'ibisPaint X application' },
       year: { vi: 'Năm sáng tác: 2024', en: 'Year: 2024' },

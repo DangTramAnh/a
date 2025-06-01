@@ -4,7 +4,7 @@ const folders = [
       images: [
         {
           src: 'https://www.canva.com/design/DAF5WCEV5gU/WouSJdbI-Ds0HJGuKuU_-g/view?embed',
-          short: 'Đối ',
+          short: 'Toán chuyên đề',
           desc: 'Bài thuyết trình bằng Canva',
           type: 'iframe'
         },

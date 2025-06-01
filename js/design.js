@@ -1,6 +1,6 @@
 const folders = [
     {
-      name: { vi: 'Dự án trong lớp', en: 'project in class' },
+      name: { vi: 'Dự án trong lớp', en: 'Project in class' },
       images: [
         {
           src: 'https://drive.google.com/file/d/1rejxd7BB5C3UCNP8WYtC_hiN1U7t1-fb/view?usp=sharing',
@@ -60,7 +60,7 @@ const folders = [
       ]
     },
      {
-      name: { vi: 'Luyện tập', en: 'practice' },
+      name: { vi: 'Luyện tập', en: 'Practice' },
       images: [
         {
           src: 'https://drive.google.com/file/d/1IwQbN1AGZUqHBeyK8LXAvN0w7Pl_vneA/view?usp=sharing',

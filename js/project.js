@@ -61,12 +61,8 @@ const folders = [
         desc: 'User experience workflow',
         type: 'drive'
       },
-      {
-        src: 'https://drive.google.com/file/d/190azToVcjtVs3c7bgLuZlwODC8pN6_re/view?usp=sharing',
-        short: 'Sketch',
-        desc: 'This is a sketch project',
-        type: 'drive'
-      },
+      
+   
       {
         src: 'https://drive.google.com/file/d/19-E0v4Z9lcUdQsjyG5-c3M4_SNSf61z8/view?usp=sharing',
         short: 'Logo',
@@ -329,22 +325,22 @@ const folders = [
     
       {
         type: 'card3d',
-        short: 'Haerin',
-        desc: 'Haerin',
+        short: 'Felina',
+        desc: 'Felina',
         front: '../image/keychain/Felina.png',
         back: '../image/keychain/Felina.png'
       },
       {
         type: 'card3d',
-        short: 'Hanni',
-        desc: 'Hanni',
+        short: 'Felix',
+        desc: 'Felix',
         front: '../image/keychain/Felix.png',
         back: '../image/keychain/Felix.png'
       }
     ]
   },
   {
-      name: { vi: 'Bài trình chiếu dự án', en: 'Project slide' },
+      name: { vi: 'Bài trình chiếu dự án', en: 'Slide of the project' },
       images: [
         {
           src: 'https://www.canva.com/design/DAGoiZj0_nQ/v_5sgNYbtQEfdhYaRyWIUw/view?embed',
