@@ -10,6 +10,8 @@ let isShrunk = false;
 let isExpanded = true;
 
 // Ngôn ngữ
+const detailsPanel = document.querySelector('.artwork-details'); // Biến toàn cục
+
 langToggle.addEventListener('click', () => {
   const viTexts = document.querySelectorAll('.lang.vi');
   const enTexts = document.querySelectorAll('.lang.en');
@@ -25,6 +27,11 @@ langToggle.addEventListener('click', () => {
     flagIcon.src = 'https://flagcdn.com/w40/vn.png';
     currentLang = 'vi';
   }
+
+  document.documentElement.lang = currentLang;
+
+  // Dispatch event báo ngôn ngữ đã thay đổi
+  document.dispatchEvent(new Event('languageChanged'));
 });
 
 // Chuyển theme sáng/tối
@@ -112,19 +119,19 @@ document.addEventListener('DOMContentLoaded', () => {
       titleVi: 'THPT Mạc Đĩnh Chi',
       titleEn: 'Mac Dinh Chi High School',
       descriptionVi: 'THPT Mạc Đĩnh Chi là nơi em trưởng thành, học được cách suy nghĩ độc lập và phát triển bản thân toàn diện.',
-      descriptionEn: 'Mac Dinh Chi High School is where I matured, learned to think independently, and grew as a person.'
+      descriptionEn: 'Mac Dinh Chi High School helped me grow and mature, learn to think independently, and become a more well-rounded person.'
     },
     edu2: {
-      image: './image/about_image/thth.jpg',
+      image: './image/about_image/ththsaigon.jpeg',
       titleVi: 'THTH Sài Gòn',
-      titleEn: 'Sài Gòn Secondary School',
+      titleEn: 'Sài Gòn Pratical Secondary School',
       descriptionVi: 'Những năm học tại Trung học Thực hành Sài Gòn là khoảng thời gian em bắt đầu khám phá bản thân và hình thành những ước mơ đầu tiên.',
-      descriptionEn: 'My years at Saigon Experimental Secondary School were when I began discovering myself and forming my earliest dreams.'
+      descriptionEn: 'The time I spent at Sai Gon Practical Secondary School was when I began to discover who I was and form my dream for the first time.'
     },
     edu3: {
       image: './image/about_image/khaiminh.jpg',
       titleVi: 'Tiểu học Khai Minh',
-      titleEn: 'KhaiMinh Primary School',
+      titleEn: 'Khai Minh Primary School',
       descriptionVi: 'Khi còn học ở tiểu học KhaiMinh, em đã có nhiều kỷ niệm đẹp và những bài học đầu đời quý giá.',
       descriptionEn: 'When I was studying at KhaiMinh Primary School, I had many beautiful memories and learned valuable lessons in my early years. '
     },
@@ -132,22 +139,22 @@ document.addEventListener('DOMContentLoaded', () => {
       image: './image/about_image/IELST.jpg',
       titleVi: 'IELTS',
       titleEn: 'IELTS',
-      descriptionVi: 'Việc đạt được bằng IELTS không chỉ là một thành tích học thuật mà còn mở ra cho em nhiều cơ hội vươn ra thế giới.',
-      descriptionEn: 'Earning the IELTS certificate was not just an academic milestone, but also a gateway to global opportunities.'
+      descriptionVi: 'Việc đạt được bằng IELTS không chỉ là một dấu mốc trong học tập mà còn giúp em có thể có được nhiều cơ hội vươn ra thế giới.',
+      descriptionEn: "Achieving my IELTS isn't just a big academic step; it also opens up many opportunities for me to reach out to the world.",
     },
     exp2: {
       image: './image/about_image/mindx.png',
       titleVi: 'MindX',
       titleEn: 'MindX',
-      descriptionVi: 'Khóa học tại MindX đã giúp em hiểu rõ hơn và rèn luyện các kỹ năng thiết kế nhân vật trong ngành thiết kế.',
-      descriptionEn: 'The course at MindX has deepened my understanding and strengthened my skills in character design within the design industry.'
+      descriptionVi: 'Khóa học tại MindX đã giúp em hiểu rõ hơnvà rèn luyện các kỹ năng để thiết kế nhân vật.',
+      descriptionEn: "MindX's course equipped me with the knowledge and skills needed for character design.",
     },
     exp3: {
       image: './image/about_image/design.png',
       titleVi: 'Thiết kế',
       titleEn: 'Design',
-      descriptionVi: 'Kinh nghiệm từ các dự án thiết kế trên lớp đã giúp em có những bước làm quen đầu tiên với ngành này.',
-      descriptionEn: 'Experience from class design projects has given me the first steps in getting familiar with this field.'
+      descriptionVi: 'Kinh nghiệm làm designer trong các dự án nhóm trên lớp đã giúp em có những bước làm quen thực tế đầu tiên với ngành này.',
+      descriptionEn: 'Experience from working as a designer in a group for class projects was my first real way to get familiar with this major.',
     }
   };
 

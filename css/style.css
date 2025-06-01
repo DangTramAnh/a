@@ -261,7 +261,7 @@ body.dark {
 .role,
 .role .lang.vi,
 .role .lang.en {
-  color: #FF94AB !important;
+  color: #FF94AB ;
   font-size: 34px;
 }
 
@@ -618,6 +618,7 @@ body.dark .timeline-item.active {
   color: #666;
   line-height: 1.6;
   font-size: 15px;
+  text-align:justify;
 }
 
 /* Dark mode styles */
@@ -641,6 +642,18 @@ body.dark .service-item-inner .lang.vi, body.dark .service-item-inner .lang.en{
 }
 body.dark span.lang.vi, body.dark span.lang.en{
   color:white
+}
+
+body.dark .name{
+  color:#FFB8C9
+}
+body.dark .role .lang.en,
+body.dark .role .lang.vi{
+  color:#FFB8C9;
+}
+body.dark .badge-subtitle .lang.en,
+body.dark .badge-subtitle .lang.vi{
+  color: black;
 }
 body.dark .bio,
 body.dark .info-item span,
@@ -837,6 +850,7 @@ body.dark .timeline-item:hover::before {
 .popup-description {
   font-size: 16px;
   line-height: 1.6;
+  text-align:justify;
   color: #666;
 }
 
@@ -1009,13 +1023,16 @@ body.dark .timeline-item p {
 /* Left Description */
 .artwork-description {
   padding: 20px;
+  
 }
 
 .artwork-description h2 {
   font-size: 2em;
   margin-bottom: 20px;
   color: #FF94AB;
+  width:200px;
 }
+
 
 .artwork-description p {
   font-size: 1.1em;
@@ -1316,8 +1333,11 @@ body.dark .details-content p {
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
+    width:auto;
   }
-
+.artwork-description h2{
+  width:auto;
+}
   .artwork-previews {
     flex-direction: row;
     justify-content: center;
