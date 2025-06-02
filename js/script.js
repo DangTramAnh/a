@@ -298,7 +298,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       image: './image/3.2.jpg',
       preview: './image/3.2.jpg',
-      title: { vi: 'Nữ du kích <br>miền nam', en: 'Female southern<br> guerrilla' },
+      title: { vi: 'Nữ du kích <br>miền nam', en: 'Southern<br>Female guerrilla' },
       size: { vi: 'Kích thước: 1266 x 1728 cm', en: 'Size: 1266 x 1728 cm' },
       medium: { vi: 'Ứng dụng ibisPaint X', en: 'ibisPaint X application' },
       year: { vi: 'Năm sáng tác: 2024', en: 'Year: 2024' },
