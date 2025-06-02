@@ -286,7 +286,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       image: './image/3.1.jpg',
       preview: './image/3.1.jpg',
-      title: { vi: 'Giáng sinh an lành', en: 'Merry Christmas' },
+      title: { vi: 'Giáng sinh <br>an lành', en: 'Merry Christmas' },
       size: { vi: 'Kích thước: 1575 x 2331 cm', en: 'Size: 1575 x 2331 cm' },
       medium: { vi: 'Ứng dụng ibisPaint X', en: 'ibisPaint X application' },
       year: { vi: 'Năm sáng tác: 2024', en: 'Year: 2024' },
@@ -298,7 +298,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       image: './image/3.2.jpg',
       preview: './image/3.2.jpg',
-      title: { vi: 'Nữ du kích miền nam', en: 'Female southern guerrilla' },
+      title: { vi: 'Nữ du kích <br>miền nam', en: 'Female southern<br> guerrilla' },
       size: { vi: 'Kích thước: 1266 x 1728 cm', en: 'Size: 1266 x 1728 cm' },
       medium: { vi: 'Ứng dụng ibisPaint X', en: 'ibisPaint X application' },
       year: { vi: 'Năm sáng tác: 2024', en: 'Year: 2024' },
@@ -343,7 +343,9 @@ document.addEventListener('DOMContentLoaded', () => {
     mainArtwork.src = artwork.image;
     if (index === 0) {
       mainArtwork.style.objectPosition = 'bottom';
-    } else {
+    } else if(index ===1){
+      mainArtwork.style.objectPosition='top';
+    } else{
       mainArtwork.style.objectPosition = ''; // hoặc 'center' nếu muốn rõ ràng
     }
     // Add fade out effect
